@@ -1,0 +1,134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000012 /* Sources/TailTraceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* Sources/TailTraceApp.swift */; };
+		A00000000000000000000013 /* Sources/Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007 /* Sources/Geometry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000006 /* Sources/TailTraceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/TailTraceApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* Sources/Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Geometry.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 /* TailTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = TailTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000006 /* Sources/TailTraceApp.swift */,
+				A00000000000000000000007 /* Sources/Geometry.swift */,
+				A00000000000000000000008 /* TailTrace.app */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000004 /* TailTrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000009 /* Build configuration list for PBXNativeTarget "TailTrace" */;
+			buildPhases = (
+				A00000000000000000000010 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TailTrace;
+			productName = TailTrace;
+			productReference = A00000000000000000000008 /* TailTrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXProject "TailTrace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000003;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000004 /* TailTrace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000012 /* Sources/TailTraceApp.swift in Sources */,
+				A00000000000000000000013 /* Sources/Geometry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A00000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.research.TailTrace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000002 /* Build configuration list for PBXProject "TailTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000005 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A00000000000000000000009 /* Build configuration list for PBXNativeTarget "TailTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000011 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
